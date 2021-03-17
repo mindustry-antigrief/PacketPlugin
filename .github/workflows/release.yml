@@ -34,7 +34,7 @@ jobs:
         with:
           tag_name: ${{ github.run_number }}
           body: |
-            Packet Plugin ${{ github.run_number }} (${{ env.COMMIT }})
+            Packet Plugin ${{ github.run_number }} ($(git rev-parse --short "$GITHUB_SHA"))
             See README.md for installation instructions
             **Commit Message:**
             *${{ github.event.head_commit.message }}*

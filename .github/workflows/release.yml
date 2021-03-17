@@ -48,7 +48,7 @@ jobs:
           asset_name: PacketPlugin.jar
           asset_content_type: application/zip
 
-      - name: Upload Artifact # Only uploaded on fail to save some time
+      - name: Upload Artifact # Only uploaded on fail to save time
         if: ${{ failure() }}
         uses: actions/upload-artifact@v2
         with:

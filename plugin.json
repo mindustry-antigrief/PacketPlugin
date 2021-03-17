@@ -1,7 +1,7 @@
 {
   "name": "PacketPlugin",
   "author": "foo",
-  "main": "example.PacketPlugin",
+  "main": "com.github.mindustryantigrief.PacketPlugin",
   "description": "A plugin that provides a network interface for foo's client.",
   "version": 1.0
 }

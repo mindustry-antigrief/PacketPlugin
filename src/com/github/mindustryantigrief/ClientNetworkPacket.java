@@ -1,4 +1,4 @@
-package example;
+package com.github.mindustryantigrief;
 
 import mindustry.net.Packet;
 

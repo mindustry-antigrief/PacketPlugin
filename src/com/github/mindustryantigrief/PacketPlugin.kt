@@ -1,4 +1,4 @@
-package example
+package com.github.mindustryantigrief
 
 import arc.Events
 import arc.graphics.Color

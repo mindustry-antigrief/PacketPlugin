@@ -32,6 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
+          tag_name: ${{ github.ref }}
           body: |
             Packet Plugin ${{ github.run_number }} (${{ env.COMMIT }})
             See README.md for installation instructions

@@ -1,6 +1,6 @@
 # Packet Plugin
 The purpose of this plugin is to add a custom packet interface that does not interfere with the vanilla client, but is
-detected by (our client)[https://github.com/mindustry-antigrief/mindustry-client-v6] and used for networking.  This
+detected by [our client](https://github.com/mindustry-antigrief/mindustry-client-v6) and used for networking.  This
 enables it to transmit faster and more reliably, as well as removing the requirement for rapidly-configured special
 message blocks.
 
